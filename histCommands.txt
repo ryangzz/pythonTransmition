@@ -1,0 +1,45 @@
+  sudo pip3 install virtualenv
+   54  ls
+   55  cd Desktop/
+   56  ls
+   57  mkdir tvrutaPy
+   58  cd tvrutaPy/
+   59  ls
+   60  virtualenv playSpots
+   61  ls
+   62  source playSpots/bin/activate
+   63  pyhton --version
+   64  python --version
+   65  touch main.py
+   66  ls
+   67  sudo nano main.py 
+   68  desactivate
+   69  deactivate
+   70  pip3 install --upgrade pip
+   71  php --version
+   72  pip3 install --upgrade pip3
+   73  pip --version
+   74  pip3 --version
+   75  virtualenv playSpots/bin/activate
+   76  source playSpots/bin/activate
+   77  clear
+   78  pip install pygame
+   79  pip install moviepy
+   80  pip install imageio[ffmpeg]
+   81  ls
+   82  mkdir videos
+   83  ls
+   84  python main.py 
+   85  pip install numpy
+   86  sudo apt-get install libopenblas-dev
+   87  python main.py 
+   88  sudo apt-get install libsdl2-mixer-2.0-0
+   89  clear
+   90  python main.py 
+   91  source nano main.py 
+   92  sudo nano main.py 
+   93  clear
+   94  history
+sudo apt-get install ffmpeg
+sudo apt-get install libsdl2-ttf-2.0-0
+
