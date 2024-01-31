@@ -1,0 +1,83 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "solofile": "video_intro_1705511617.webm",
+      "orden": "1,5",
+      "src": "http://localhost/storage/videos/video_intro_1705511617.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 3,
+      "solofile": "video_video-3_1705511677.webm",
+      "orden": "2,6",
+      "src": "http://localhost/storage/videos/video_video-3_1705511677.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 2,
+      "solofile": "video_video-2_1705511649.webm",
+      "orden": "3",
+      "src": "http://localhost/storage/videos/video_video-2_1705511649.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 4,
+      "solofile": "video_video-4_1705511756.webm",
+      "orden": "4",
+      "src": "http://localhost/storage/videos/video_video-4_1705511756.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 5,
+      "solofile": "video_video-5_1705512357.webm",
+      "orden": "7",
+      "src": "http://localhost/storage/videos/video_video-5_1705512357.webm",
+      "type": "video/webm"
+    }
+  ],
+  "reproduccion": [
+    {
+      "id": 1,
+      "name": "Intro",
+      "id_video": 1,
+      "nombre": "video_intro_1705511617.webm"
+    },
+    {
+      "id": 2,
+      "name": "video 3",
+      "id_video": 3,
+      "nombre": "video_video-3_1705511677.webm"
+    },
+    {
+      "id": 3,
+      "name": "video 2",
+      "id_video": 2,
+      "nombre": "video_video-2_1705511649.webm"
+    },
+    {
+      "id": 4,
+      "name": "video 4",
+      "id_video": 4,
+      "nombre": "video_video-4_1705511756.webm"
+    },
+    {
+      "id": 5,
+      "name": "Intro",
+      "id_video": 1,
+      "nombre": "video_intro_1705511617.webm"
+    },
+    {
+      "id": 6,
+      "name": "video 3",
+      "id_video": 3,
+      "nombre": "video_video-3_1705511677.webm"
+    },
+    {
+      "id": 7,
+      "name": "video 5",
+      "id_video": 5,
+      "nombre": "video_video-5_1705512357.webm"
+    }
+  ]
+}
