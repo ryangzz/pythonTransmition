@@ -15,7 +15,7 @@ class Spot:
         self.check_and_create_folder()
         ruta_completa = os.path.join("videos", name)
         if not os.path.isfile(ruta_completa):
-          self.downloadSpot()
+            self.downloadSpot()
         else:
             print('el archivo: '+ name +' ya lo tenemos guardado')
 

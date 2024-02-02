@@ -85,7 +85,9 @@ class ListVideos:
             ruta_video_obsoleto = os.path.join(carpeta_videos, video_obsoleto)
             try:
                 os.remove(ruta_video_obsoleto)
+                # os.system("pkill -f main.py")
                 print(f"Video obsoleto eliminado: {video_obsoleto}")
+                
             except FileNotFoundError:
                 print(f"Error: El video obsoleto {video_obsoleto} no fue encontrado.")
             except Exception as e:
