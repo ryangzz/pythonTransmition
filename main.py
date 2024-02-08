@@ -22,7 +22,7 @@ def reproducir_video(video_path, screen, font):
     clip.preview(fullscreen=True, audio=True)
 
 def reproducir_lista(playlist, videos_directory, screen, font):
-    script_directory    = os.path.dirname(__file__)
+    script_directory    = os.path.dirname(os.path.abspath(__file__))
     json_playlist_path  = os.path.join(script_directory, "playlist.json")
 
     if not playlist["reproduccion"]:
@@ -61,7 +61,12 @@ def main():
     pygame.init()
     pygame.display.set_caption("Reproductor de Videos")
 
-    script_directory    = os.path.dirname(__file__)
+    # Obtener la ruta del script actual
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+
+    # Cambiar al directorio del script
+    os.chdir(script_directory)
+
     videos_directory    = os.path.join(script_directory, "videos")
     json_playlist_path  = os.path.join(script_directory, "playlist.json")
 

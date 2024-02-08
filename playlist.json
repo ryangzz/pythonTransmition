@@ -1,16 +1,29 @@
 {
   "videos": [
     {
+      "id": 4,
+      "solofile": "video_video-4_1705511756.webm",
+      "orden": "1",
+      "src": "http://192.168.1.87/storage/videos/video_video-4_1705511756.webm",
+      "type": "video/webm"
+    },
+    {
       "id": 5,
       "solofile": "video_video-5_1705512357.webm",
-      "orden": "1",
-      "src": "http://localhost/storage/videos/video_video-5_1705512357.webm",
+      "orden": "2",
+      "src": "http://192.168.1.87/storage/videos/video_video-5_1705512357.webm",
       "type": "video/webm"
     }
   ],
   "reproduccion": [
     {
       "id": 1,
+      "name": "video 4",
+      "id_video": 4,
+      "nombre": "video_video-4_1705511756.webm"
+    },
+    {
+      "id": 2,
       "name": "video 5",
       "id_video": 5,
       "nombre": "video_video-5_1705512357.webm"

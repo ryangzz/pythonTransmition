@@ -7,6 +7,12 @@ class ListVideos:
     listaActual = None
 
     def __init__(self, url) -> None:
+        # Obtener la ruta del script actual
+        script_directory = os.path.dirname(os.path.abspath(__file__))
+
+        # Cambiar al directorio del script
+        os.chdir(script_directory)
+
         self.url = url
         print('Me instanciaron desde la clase ListVideos')
         self.getVideosActuales()

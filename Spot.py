@@ -6,6 +6,12 @@ from tqdm import tqdm
 class Spot:
 
     def __init__(self, url, name, typee) -> None:
+        # Obtener la ruta del script actual
+        script_directory = os.path.dirname(os.path.abspath(__file__))
+
+        # Cambiar al directorio del script
+        os.chdir(script_directory)
+
         self.url = url
         self.name = name
         self.type = typee
