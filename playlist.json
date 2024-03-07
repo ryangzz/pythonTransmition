@@ -1,32 +1,203 @@
 {
   "videos": [
     {
-      "id": 4,
-      "solofile": "video_video-4_1705511756.webm",
-      "orden": "1",
-      "src": "http://192.168.1.87/storage/videos/video_video-4_1705511756.webm",
+      "id": 473,
+      "solofile": "video_introtvruta_1682616175.webm",
+      "orden": "1,5,9,13",
+      "src": "https://itvu.tvruta.com/storage/videos/video_introtvruta_1682616175.webm",
       "type": "video/webm"
     },
     {
-      "id": 5,
-      "solofile": "video_video-5_1705512357.webm",
-      "orden": "2",
-      "src": "http://192.168.1.87/storage/videos/video_video-5_1705512357.webm",
+      "id": 556,
+      "solofile": "video_spot-vacantesrh_1698188728.webm",
+      "orden": "14",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-vacantesrh_1698188728.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 462,
+      "solofile": "video_spot-superficies-sa_1678292604.webm",
+      "orden": "15",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-superficies-sa_1678292604.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 461,
+      "solofile": "video_spot-women-sa_1678292576.webm",
+      "orden": "16",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-women-sa_1678292576.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 460,
+      "solofile": "video_spot-jabon-manos-bv-sa_1678292537.webm",
+      "orden": "17",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-jabon-manos-bv-sa_1678292537.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 459,
+      "solofile": "video_spot-body-mist-men-sa_1678292507.webm",
+      "orden": "18",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-body-mist-men-sa_1678292507.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 458,
+      "solofile": "video_spot-video-spray-heridas-sa_1678292460.webm",
+      "orden": "19",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-video-spray-heridas-sa_1678292460.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 598,
+      "solofile": "video_spot-marcanl30scierre_1709493949.webm",
+      "orden": "2,6,10",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-marcanl30scierre_1709493949.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 457,
+      "solofile": "video_spot-body-mist-girls-sa_1678292363.webm",
+      "orden": "20",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-body-mist-girls-sa_1678292363.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 597,
+      "solofile": "video_spot-adrianportadarevista_1709493892.webm",
+      "orden": "3,7,11",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-adrianportadarevista_1709493892.webm",
+      "type": "video/webm"
+    },
+    {
+      "id": 596,
+      "solofile": "video_spot-nuevaimagenfundidora_1708972828.webm",
+      "orden": "4,8,12",
+      "src": "https://itvu.tvruta.com/storage/videos/video_spot-nuevaimagenfundidora_1708972828.webm",
       "type": "video/webm"
     }
   ],
   "reproduccion": [
     {
       "id": 1,
-      "name": "video 4",
-      "id_video": 4,
-      "nombre": "video_video-4_1705511756.webm"
+      "name": "IntroTVRUTA",
+      "id_video": 473,
+      "nombre": "video_introtvruta_1682616175.webm"
     },
     {
       "id": 2,
-      "name": "video 5",
-      "id_video": 5,
-      "nombre": "video_video-5_1705512357.webm"
+      "name": "Spot - MARCANL30SCIERRE",
+      "id_video": 598,
+      "nombre": "video_spot-marcanl30scierre_1709493949.webm"
+    },
+    {
+      "id": 3,
+      "name": "Spot - AdrianPortadaRevista",
+      "id_video": 597,
+      "nombre": "video_spot-adrianportadarevista_1709493892.webm"
+    },
+    {
+      "id": 4,
+      "name": "Spot - NuevaImagenFundidora",
+      "id_video": 596,
+      "nombre": "video_spot-nuevaimagenfundidora_1708972828.webm"
+    },
+    {
+      "id": 5,
+      "name": "IntroTVRUTA",
+      "id_video": 473,
+      "nombre": "video_introtvruta_1682616175.webm"
+    },
+    {
+      "id": 6,
+      "name": "Spot - MARCANL30SCIERRE",
+      "id_video": 598,
+      "nombre": "video_spot-marcanl30scierre_1709493949.webm"
+    },
+    {
+      "id": 7,
+      "name": "Spot - AdrianPortadaRevista",
+      "id_video": 597,
+      "nombre": "video_spot-adrianportadarevista_1709493892.webm"
+    },
+    {
+      "id": 8,
+      "name": "Spot - NuevaImagenFundidora",
+      "id_video": 596,
+      "nombre": "video_spot-nuevaimagenfundidora_1708972828.webm"
+    },
+    {
+      "id": 9,
+      "name": "IntroTVRUTA",
+      "id_video": 473,
+      "nombre": "video_introtvruta_1682616175.webm"
+    },
+    {
+      "id": 10,
+      "name": "Spot - MARCANL30SCIERRE",
+      "id_video": 598,
+      "nombre": "video_spot-marcanl30scierre_1709493949.webm"
+    },
+    {
+      "id": 11,
+      "name": "Spot - AdrianPortadaRevista",
+      "id_video": 597,
+      "nombre": "video_spot-adrianportadarevista_1709493892.webm"
+    },
+    {
+      "id": 12,
+      "name": "Spot - NuevaImagenFundidora",
+      "id_video": 596,
+      "nombre": "video_spot-nuevaimagenfundidora_1708972828.webm"
+    },
+    {
+      "id": 13,
+      "name": "IntroTVRUTA",
+      "id_video": 473,
+      "nombre": "video_introtvruta_1682616175.webm"
+    },
+    {
+      "id": 14,
+      "name": "Spot - VacantesRH",
+      "id_video": 556,
+      "nombre": "video_spot-vacantesrh_1698188728.webm"
+    },
+    {
+      "id": 15,
+      "name": "Spot - Superficies_SA",
+      "id_video": 462,
+      "nombre": "video_spot-superficies-sa_1678292604.webm"
+    },
+    {
+      "id": 16,
+      "name": "Spot - Women_SA",
+      "id_video": 461,
+      "nombre": "video_spot-women-sa_1678292576.webm"
+    },
+    {
+      "id": 17,
+      "name": "Spot - Jabon Manos Bv_SA",
+      "id_video": 460,
+      "nombre": "video_spot-jabon-manos-bv-sa_1678292537.webm"
+    },
+    {
+      "id": 18,
+      "name": "Spot - Body Mist Men_SA",
+      "id_video": 459,
+      "nombre": "video_spot-body-mist-men-sa_1678292507.webm"
+    },
+    {
+      "id": 19,
+      "name": "Spot - Video Spray Heridas_SA",
+      "id_video": 458,
+      "nombre": "video_spot-video-spray-heridas-sa_1678292460.webm"
+    },
+    {
+      "id": 20,
+      "name": "Spot - Body Mist Girls_SA",
+      "id_video": 457,
+      "nombre": "video_spot-body-mist-girls-sa_1678292363.webm"
     }
   ]
 }

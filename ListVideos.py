@@ -1,18 +1,22 @@
 import requests
 import json
 import os
-
+import sys
 class ListVideos:
     
     listaActual = None
 
     def __init__(self, url) -> None:
-        # Obtener la ruta del script actual
-        script_directory = os.path.dirname(os.path.abspath(__file__))
+        # Obtener la ruta al directorio temporal o al directorio del script
+        if getattr(sys, 'frozen', False):
+            # Estás ejecutando un ejecutable
+            script_directory = os.path.dirname(sys.executable)
+        else:
+            # Estás ejecutando el script directamente
+            script_directory = os.path.dirname(os.path.abspath(__file__))
 
-        # Cambiar al directorio del script
+        # Cambiar al directorio del script o al directorio temporal
         os.chdir(script_directory)
-
         self.url = url
         print('Me instanciaron desde la clase ListVideos')
         self.getVideosActuales()

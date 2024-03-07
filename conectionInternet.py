@@ -29,7 +29,7 @@ class ConnectionHandler:
             print("¡Conexión a Internet detectada!")
             print("Iniciando comprobación y descarga de nuevas programaciones ....")
             try:
-                url = 'http://192.168.1.87/listvideo2'
+                url = 'https://itvu.tvruta.com/listvideo2'
                 self.programation = Programation(url)
                 # Señaliza al main_event para que main.py sepa que hay una nueva programación
                 self.main_event.set()
